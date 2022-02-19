@@ -1,4 +1,4 @@
-import {API_KEY} from "../WEATHER_API_KEY_.js"
+import {API_KEY} from "../WEATHER_API_KEY.js"
 const input = document.querySelector(".search");
 const button = document.querySelector(".search_btn");
 
