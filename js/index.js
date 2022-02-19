@@ -1,8 +1,9 @@
+import {API_KEY} from "../WEATHER_API_KEY_.js"
 const input = document.querySelector(".search");
 const button = document.querySelector(".search_btn");
 
 const weatherApi = {
-    key: "f24f9b1151ddc0a3d2d32aa40009e5cd",
+    key: API_KEY,
     baseUrl: "https://api.openweathermap.org/data/2.5/weather", 
 }
 
